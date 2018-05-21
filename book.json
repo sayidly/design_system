@@ -1,0 +1,78 @@
+{
+    "author": "Sayid",
+    "description": "Design System 读书笔记 - 中文",
+    "title": "设计系统",
+    "language": "zh-hans",
+    "links":
+    {
+        "sidebar":
+        {
+            "Design System 读书笔记": "https://sayidhe.me/"
+        }
+    },
+    "styles":
+    {
+        "website": "styles/book.css"
+    },
+    "plugins": [
+        "github",
+        "edit-link",
+        "donate",
+        "sitemap",
+        "-sharing",
+        "splitter",
+        "sharing-plus",
+        "search",
+        "search-pro"
+    ],
+    "pluginsConfig":
+    {
+        "github":
+        {
+            "url": "#"
+        },
+        "edit-link":
+        {
+            "base": "#",
+            "label": "编辑"
+        },
+        "sitemap":
+        {
+            "hostname": "http://linux.hellocode.name"
+        },
+        "donate":
+        {
+            "wechat": "https://wp.hellocode.name/wp-content/uploads/2017/12/reward_1513737335-200x200.jpg",
+            "alipay": "https://wp.hellocode.name/wp-content/uploads/2017/12/reward_1513737644-200x200.jpg",
+            "title": "",
+            "button": "赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
+        },
+        "sharing":
+        {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": true,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                "facebook", "twitter", "weibo",
+                "qq", "qzone"
+            ]
+        }
+    }
+
+}
