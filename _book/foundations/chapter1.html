@@ -1,0 +1,393 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第一章节: 设计系统 · 设计系统</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Sayid">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/book.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../process/" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://sayidhe.me/" target="_blank" class="custom-link">Design System 读书笔记</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../foreword/introduction.html">
+            
+                <a href="../foreword/introduction.html">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.2.1" data-path="chapter1.html">
+            
+                <a href="chapter1.html">
+            
+                    
+                    第一章节: 设计系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../process/">
+            
+                <a href="../process/">
+            
+                    
+                    过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../conclusion/">
+            
+                <a href="../conclusion/">
+            
+                    
+                    总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >第一章节: 设计系统</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x7B2C;&#x4E00;&#x7AE0;&#x8282;---&#x8BBE;&#x8BA1;&#x7CFB;&#x7EDF;">&#x7B2C;&#x4E00;&#x7AE0;&#x8282; - &#x8BBE;&#x8BA1;&#x7CFB;&#x7EDF;</h1>
+<p>&#x8BBE;&#x8BA1;&#x7CFB;&#x7EDF;&#x5305;&#x542B;&#xFF1A;&#x5185;&#x5728;&#x5173;&#x8054;&#x6A21;&#x5757;(interconnected patterns) &#x548C; &#x5171;&#x4EAB;&#x65B9;&#x5F0F;(shared practices)</p>
+<p>&#x6A21;&#x5757;&#xFF1A;&#x7EC4;&#x6210;&#x754C;&#x9762;&#x7684;&#x53EF;&#x91CD;&#x590D;&#x6027;&#x5143;&#x7D20;&#xFF0C;&#x5305;&#x542B; &#x7528;&#x6237;&#x6D41;&#x7A0B;&#x3001;&#x4EA4;&#x4E92;&#x3001;&#x6309;&#x94AE;&#x3001;&#x6587;&#x672C;&#x6846;&#x3001;&#x56FE;&#x6807;&#x3001;&#x989C;&#x8272;&#x3001;&#x7248;&#x5F0F;&#x3001;&#x5FAE;&#x590D;&#x5236;&#x54C1;&#x3002;</p>
+<p>&#x5171;&#x4EAB;&#x65B9;&#x5F0F;&#xFF1A;&#x6211;&#x4EEC;&#x5982;&#x4F55;&#x521B;&#x5EFA;&#x3001;&#x6355;&#x6349;&#x3001;&#x5206;&#x4EAB;&#x548C;&#x4F7F;&#x7528;&#x8FD9;&#x4E9B;&#x6A21;&#x5757;&#xFF0C;&#x7279;&#x522B;&#x662F;&#x5728;&#x548C;&#x56E2;&#x961F;&#x5DE5;&#x4F5C;&#x7684;&#x65F6;&#x5019;&#x3002;</p>
+<p><br>
+<img src="../assets/ch01-01-thomson-futurelearn.png" alt="Thomson Futurelearn"></p>
+<p>Thomson &#x7684;&#x4E3B;&#x8981;&#x76EE;&#x7684;&#x662F;&#x4E3A;&#x4E86;&#x5904;&#x7406;&#x6570;&#x636E;&#xFF0C;&#x6548;&#x80FD;&#xFF0C;&#x5FEB;&#x901F;&#x626B;&#x63CF;&#x548C;&#x591A;&#x4EFB;&#x52A1;&#x64CD;&#x4F5C;&#x3002;
+FutureLearn &#x7684;&#x4E3B;&#x8981;&#x76EE;&#x7684;&#x662F;&#x4E3A;&#x4E86;&#x4ED4;&#x7EC6;&#x9605;&#x8BFB;&#xFF0C;&#x975E;&#x6B63;&#x5F0F;&#x5B66;&#x4E60;&#xFF0C;&#x548C;&#x5176;&#x4ED6;&#x5FD7;&#x540C;&#x9053;&#x5408;&#x7684;&#x4EBA;&#x4EA7;&#x751F;&#x8054;&#x7CFB;&#x3002;</p>
+<p>&#x4EA7;&#x54C1;&#x7684; <strong>&#x76EE;&#x7684;</strong> &#x51B3;&#x5B9A;&#x7740;&#x5B83;&#x6240;&#x9009;&#x7528;&#x7684;&#x6A21;&#x5757;&#x3002;</p>
+<p>Thomson &#x7684;&#x7248;&#x9762;&#x770B;&#x8D77;&#x6765;&#x4EE5;&#x9762;&#x677F;&#x548C;&#x5C0F;&#x90E8;&#x4EF6;&#x4E3A;&#x4E3B;&#xFF0C;&#x4E3A;&#x4E86;&#x8BA9;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x591A;&#x4EFB;&#x52A1;&#x64CD;&#x4F5C;&#x3002;&#x8BBE;&#x8BA1;&#x770B;&#x8D77;&#x6765;&#x5F88;&#x7A20;&#x5BC6;&#xFF0C;&#x5C4F;&#x5E55;&#x4E0A;&#x5C55;&#x793A;&#x4E86;&#x8BB8;&#x591A;&#x7684;&#x4FE1;&#x606F;&#x3002;&#x5F88;&#x5C0F;&#x7684;&#x95F4;&#x8DDD;&#xFF0C;&#x7D27;&#x51D1;&#x7684;&#x63A7;&#x5236;&#xFF0C;&#x5F39;&#x6027;&#x7684;&#x5E03;&#x5C40;&#xFF0C;&#x6392;&#x7248;&#x7684;&#x9009;&#x62E9;&#xFF0C;&#x5C31;&#x50CF;&#x4F7F;&#x7528;&#x6D53;&#x7F29;&#x5B57;&#x4F53;&#x548C;&#x76F8;&#x5BF9;&#x8F83;&#x5C0F;&#x7684;&#x6807;&#x9898;&#xFF0C;&#x8FD9;&#x4E9B;&#x90FD;&#x80FD;&#x4EA7;&#x751F;&#x7A20;&#x5BC6;&#x7684;&#x6548;&#x679C;&#x3002;</p>
+<p>FutureLearn &#x7684;&#x7248;&#x9762;&#x770B;&#x8D77;&#x6765;&#x66F4;&#x5E7F;&#x9614;&#x3002;&#x6BCF;&#x4E2A;&#x9875;&#x9762;&#x901A;&#x5E38;&#x4E13;&#x6CE8;&#x5728;&#x4E00;&#x4E2A;&#x4EFB;&#x52A1;&#x4E0A;&#xFF0C;&#x5C31;&#x5982;&#x540C;&#x8BFB;&#x4E00;&#x7BC7;&#x6587;&#x7AE0;&#x4E00;&#x6837;&#x3001;&#x53C2;&#x4E0E;&#x4E00;&#x573A;&#x8BA8;&#x8BBA;&#x6216;&#x662F;&#x5B8C;&#x6210;&#x4E00;&#x4E2A;&#x4E92;&#x52A8;&#x7EC3;&#x4E60;&#x3002;&#x4E3B;&#x8981;&#x662F;&#x5355;&#x680F;&#x7684;&#x5E03;&#x5C40;&#xFF1B;&#x9AD8;&#x5BF9;&#x6BD4;&#x7684;&#x6392;&#x7248;&#xFF0C;&#x5927;&#x7684;&#x6807;&#x9898;&#x6587;&#x5B57;&#xFF0C;&#x5BBD;&#x5927;&#x7684;&#x63A7;&#x5236;&#xFF0C;&#x548C;&#x5DE8;&#x5927;&#x7684;&#x7559;&#x767D;&#x7A7A;&#x95F4;&#x3002;</p>
+<p>&#x529F;&#x80FD;&#x6A21;&#x5757;(functional patterns) &#x7531;&#x4EA7;&#x54C1;&#x6240;&#x5C5E;&#x7684;&#x9886;&#x57DF;&#x6765;&#x51B3;&#x5B9A;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x5E02;&#x573A;&#x8D8B;&#x52BF;&#x5206;&#x6790;&#x8F6F;&#x4EF6;&#xFF0C;&#x5C31;&#x4E60;&#x4EE5;&#x4E3A;&#x5E38;&#x7684;&#x6709;&#x4EFB;&#x52A1;&#x680F;&#x3001;&#x6570;&#x636E;&#x5B57;&#x6BB5;&#x3001;&#x8868;&#x683C;&#x3001;&#x6570;&#x636E;&#x53EF;&#x89C6;&#x5316;&#x7684;&#x5DE5;&#x5177;&#x3002;&#x5BF9;&#x4E8E;&#x5728;&#x7EBF;&#x7684;&#x5B66;&#x4E60;&#x5E73;&#x53F0;&#x5219;&#x6709;&#xFF0C;&#x6587;&#x7AE0;&#x3001;&#x89C6;&#x9891;&#x3001;&#x8BA8;&#x8BBA;&#x533A;&#x5757;&#x3001;&#x8FDB;&#x5EA6;&#x6761;&#x3001;&#x4E92;&#x52A8;&#x6D3B;&#x52A8;&#x7B49;&#x3002;</p>
+<p>&#x4EA7;&#x54C1;&#x7684;&#x7CBE;&#x795E;(&#x6216;&#x8005;&#x8BF4;&#x54C1;&#x724C;) &#x79F0;&#x4F5C; &#x77E5;&#x89C9;&#x6A21;&#x5F0F;(perceptual patterns)&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x8154;&#x8C03;&#x3001;&#x7248;&#x5F0F;&#x548C;&#x989C;&#x8272;&#x3001;&#x56FE;&#x50CF;&#x98CE;&#x683C;&#x3001;&#x95F4;&#x8DDD;&#x548C;&#x7248;&#x5F0F;&#x3001;&#x5177;&#x4F53;&#x7684;&#x5F62;&#x72B6;&#x3001;&#x4E92;&#x52A8;&#x3001;&#x52A8;&#x753B;&#x548C;&#x58F0;&#x97F3;&#x3002;</p>
+<h2 id="&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;design-patterns">&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;(design patterns)</h2>
+<p>&#x5927;&#x90E8;&#x5206;&#x7684;&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#x90FD;&#x662F;&#x5DF2;&#x7ECF;&#x5EFA;&#x7ACB;&#x7684;&#x548C;&#x719F;&#x6089;&#x7684;&#x3002;&#x5B83;&#x4EEC;&#x8FD0;&#x7528;&#x4EBA;&#x7684;&#x5FC3;&#x7406;&#x6A21;&#x578B;&#xFF0C;&#x8BA9;&#x8BBE;&#x8BA1;&#x53EF;&#x4EE5;&#x66F4;&#x76F4;&#x89C2;&#x7684;&#x88AB;&#x7406;&#x89E3;&#x3002;&#x4E00;&#x7CFB;&#x5217;&#x5185;&#x5728;&#x8FDE;&#x63A5;&#x7684;&#x6A21;&#x5F0F;&#x7EC4;&#x6210;&#x4E86;&#x4EA7;&#x54C1;&#x754C;&#x9762;&#x7684;&#x8BBE;&#x8BA1;&#x8BED;&#x8A00;&#x3002;</p>
+<p><img src="../assets/ch01-05-visual-loudness.png" alt="Loudness Guide"></p>
+<p><a href="https://www.viget.com/articles/visual-loudness/" target="_blank">Visual loudness guide</a></p>
+<p>&#x5177;&#x4F53;&#x6765;&#x8BF4;&#xFF0C;&#x6211;&#x4EEC;&#x4E3B;&#x8981;&#x770B;&#x4E24;&#x79CD;&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#xFF1A;&#x529F;&#x80FD;&#x548C;&#x77E5;&#x89C9;&#x3002;&#x529F;&#x80FD;&#x6A21;&#x5F0F;&#x8868;&#x73B0;&#x4E3A;&#x9875;&#x9762;&#x7684;&#x5177;&#x4F53;&#x6A21;&#x5757;&#xFF0C;&#x5C31;&#x50CF;&#x6309;&#x94AE;&#xFF0C;&#x9876;&#x680F;&#xFF0C;&#x8F93;&#x5165;&#x6846;&#xFF0C;&#x83DC;&#x5355;&#x3002;&#x77E5;&#x89C9;&#x6A21;&#x5F0F;&#x662F;&#x63CF;&#x8FF0;&#x6027;&#x98CE;&#x683C;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x89C2;&#x7684;&#x4F20;&#x8FBE;&#x548C;&#x8868;&#x8FBE;&#x4EA7;&#x54C1;&#x7684;&#x4E2A;&#x6027;&#xFF0C;&#x5C31;&#x50CF;&#x989C;&#x8272;&#xFF0C;&#x6392;&#x7248;&#xFF0C;&#x56FE;&#x50CF;&#x98CE;&#x683C;&#xFF0C;&#x5F62;&#x72B6;&#xFF0C;&#x52A8;&#x753B;&#x3002;</p>
+<p>&#x4ECE;&#x524D;&#x7AEF;&#x7684;&#x89C6;&#x89D2;&#x6765;&#x770B;&#x7684;&#x8BDD;&#xFF0C;&#x6A21;&#x5757;&#x603B;&#x662F;&#x5728; HTML &#x4E2D;&#xFF0C;&#x77E5;&#x89C9;&#x6A21;&#x5F0F;&#x5728; CSS &#x7279;&#x6027;&#x4E2D;&#x3002;</p>
+<p>&#x4E00;&#x4E2A;&#x8BBE;&#x8BA1;&#x7CFB;&#x7EDF;&#x5305;&#x542B;&#x4E86;&#x8BB8;&#x591A;&#x7684;&#x6A21;&#x5F0F;&#xFF1A;&#x7528;&#x6237;&#x6D41;&#x7A0B;(&#x5305;&#x542B;&#x9519;&#x8BEF;&#x548C;&#x6210;&#x529F;&#x7684;&#x4FE1;&#x606F;&#x6837;&#x5F0F;&#x7684;&#x8868;&#x5355;)&#xFF0C;&#x9886;&#x57DF;&#x578B;&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;(&#x5C31;&#x50CF;&#x6559;&#x80B2;&#x5E73;&#x53F0;&#xFF0C;&#x7535;&#x5546;&#x5E73;&#x53F0;)&#xFF0C;&#x6709;&#x8BF4;&#x670D;&#x529B;&#x7684;&#x7528;&#x6237;&#x4F53;&#x9A8C;&#x6A21;&#x5F0F;&#x3002;</p>
+<h2 id="&#x5171;&#x4EAB;&#x8BED;&#x8A00;shared-language">&#x5171;&#x4EAB;&#x8BED;&#x8A00;(shared language)</h2>
+<p>&#x5171;&#x4EAB;&#x8BED;&#x8A00;&#x53EF;&#x4EE5;&#x8DDF;&#x6709;&#x5229;&#x4E8E;&#x56E2;&#x961F;&#x7684;&#x5408;&#x4F5C;&#x3002;&#x6709;&#x4E86;&#x5171;&#x4EAB;&#x8BED;&#x8A00;&#x610F;&#x5473;&#x7740;&#x6211;&#x4EEC;&#x6709;&#x540C;&#x6837;&#x7684;&#x65B9;&#x6CD5;&#x6765;&#x4E3A;&#x754C;&#x9762;&#x5143;&#x7D20;&#x547D;&#x540D;&#xFF0C;&#x800C;&#x4E14;&#x8FD9;&#x4E9B;&#x547D;&#x540D;&#x53EF;&#x4EE5;&#x5EF6;&#x7EED;&#x81F3;&#x8BBE;&#x8BA1;&#x6587;&#x4EF6;&#x548C;&#x524D;&#x7AEF;&#x7684;&#x6846;&#x67B6;&#x3002;</p>
+<p>&#x7406;&#x60F3;&#x4E0A;&#xFF0C;&#x53C2;&#x4E0E;&#x4EA7;&#x54C1;&#x5927;&#x4EF6;&#x7684;&#x6BCF;&#x4E2A;&#x4EBA;&#x90FD;&#x5E94;&#x8BE5;&#x77E5;&#x9053;&#x8FD9;&#x662F;&#x4EC0;&#x4E48;&#x5143;&#x7D20;&#xFF1A;&#x5B83;&#x7684;&#x540D;&#x5B57;&#x548C;&#x7528;&#x9014;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x88AB;&#x8BBE;&#x8BA1;&#x79F0;&#x8FD9;&#x6837;&#xFF0C;&#x5B83;&#x53EF;&#x4EE5;&#x600E;&#x4E48;&#x6216;&#x8005;&#x4F55;&#x65F6;&#x6765;&#x4F7F;&#x7528;&#x3002;</p>
+<p><a href="https://ux.mailchimp.com/patterns" target="_blank">MailChimp&apos;s pattern library</a> &#x662F;&#x6BD4;&#x8F83;&#x65E9;&#x671F;&#x5E76;&#x4E14;&#x6709;&#x5F71;&#x54CD;&#x529B;&#x7684;&#x5728;&#x7EBF;&#x6A21;&#x5F0F;&#x5E93;&#x7684;&#x4F8B;&#x5B50;&#x3002;</p>
+<h2 id="&#x6A21;&#x5F0F;&#x5E93;&#x7684;&#x5C40;&#x9650;">&#x6A21;&#x5F0F;&#x5E93;&#x7684;&#x5C40;&#x9650;</h2>
+<p>&#x6A21;&#x5F0F;&#x5E93;&#x4E3B;&#x8981;&#x662F;&#x4E3A;&#x4E86;&#x8BA9;&#x8BBE;&#x8BA1;&#x66F4;&#x4E00;&#x81F4;&#x3002;&#x4F46;&#x662F;&#x5B83;&#x4E0D;&#x80FD;&#x8BA9;&#x574F;&#x7684;&#x8BBE;&#x8BA1;&#x53D8;&#x6210;&#x597D;&#x7684;&#x8BBE;&#x8BA1;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 基础">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../process/" class="navigation navigation-next " aria-label="Next page: 过程">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第一章节: 设计系统","level":"2.2.1","depth":2,"next":{"title":"过程","level":"2.3","depth":1,"path":"process/README.md","ref":"process/README.md","articles":[]},"previous":{"title":"基础","level":"2.2","depth":1,"path":"foundations/README.md","ref":"foundations/README.md","articles":[{"title":"第一章节: 设计系统","level":"2.2.1","depth":2,"path":"foundations/chapter1.md","ref":"foundations/chapter1.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["github","edit-link","donate","sitemap","-sharing","splitter","sharing-plus","search","search-pro","livereload"],"styles":{"website":"styles/book.css"},"pluginsConfig":{"github":{"url":"#"},"livereload":{},"splitter":{},"search-pro":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"donate":{"alipay":"https://wp.hellocode.name/wp-content/uploads/2017/12/reward_1513737644-200x200.jpg","alipayText":"支付宝打赏","button":"赏","title":"","wechat":"https://wp.hellocode.name/wp-content/uploads/2017/12/reward_1513737335-200x200.jpg","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sitemap":{"hostname":"http://linux.hellocode.name"},"sharing":{"qq":false,"all":["facebook","twitter","weibo","qq","qzone"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"edit-link":{"label":"编辑","base":"#"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Sayid","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"设计系统","language":"zh-hans","links":{"sidebar":{"Design System 读书笔记":"https://sayidhe.me/"}},"gitbook":"*","description":"Design System 读书笔记 - 中文"},"file":{"path":"foundations/chapter1.md","mtime":"2018-05-23T08:12:57.219Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-23T07:58:24.259Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
