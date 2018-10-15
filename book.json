@@ -3,7 +3,7 @@
     "description": "Design System 读书笔记 - 中文",
     "title": "设计系统",
     "language": "zh-hans",
-    "links":
+    "links": 
     {
         "sidebar":
         {
@@ -19,7 +19,7 @@
         "edit-link",
         "donate",
         "sitemap",
-        "-sharing",
+        "sharing",
         "splitter",
         "sharing-plus",
         "search",
@@ -29,22 +29,22 @@
     {
         "github":
         {
-            "url": "#"
+            "url": "https://github.com/sayidly/design_system"
         },
         "edit-link":
         {
-            "base": "#",
+            "base": "https://github.com/sayidly/design_system",
             "label": "编辑"
         },
         "sitemap":
         {
-            "hostname": ""
+            "hostname": "https://sayidhe.gitbook.io/design-system/"
         },
         "donate":
         {
-            "wechat": "",
-            "alipay": "",
-            "title": "",
+            "wechat": "#",
+            "alipay": "#",
+            "title": "#",
             "button": "赏",
             "alipayText": "支付宝打赏",
             "wechatText": "微信打赏"
@@ -52,7 +52,7 @@
         "sharing":
         {
             "douban": false,
-            "facebook": false,
+            "facebook": true,
             "google": false,
             "hatenaBookmark": false,
             "instapaper": false,
