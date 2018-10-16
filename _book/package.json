@@ -1,0 +1,19 @@
+{
+  "name": "design_system",
+  "version": "1.0.0",
+  "description": "## 1. Install node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayidly/design_system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sayidly/design_system/issues"
+  },
+  "homepage": "https://github.com/sayidly/design_system#readme"
+}
