@@ -147,16 +147,17 @@ TED 的网站的主要目的可以用一句话来概括：“尽可能广泛的�
 2. http://smashed.by/govukprinciples”
 3. "[So…What Do I Make?](http://smashed.by/whatdoimake)" by Dan Mall
 4. "[When It Comes To Whiskey, America Knows Jack](https://www.forbes.com/sites/avidan/2012/07/05/when-it-come-to-bourbon-america-knows-jack/#65ac6ae37b8b)" by Avi Dan
-5. “Google has well known broad-brush design principles such as “Focus on the user and all else will follow,” and a more specific set of principles for its material design language, such as “Motion provides meaning.”
-6. Example adapted from Pinterest design principles in "Redesigning Pinterest, block by block"
-7. Example adapted from GDS design principles.
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
+5. Google has well known broad-brush design principles such as “Focus on the user and all else will follow,” and a more specific set of principles for its material design language, such as “Motion provides meaning.
+6. Example adapted from Pinterest design principles in "[Redesigning Pinterest, block by block](https://medium.com/@suprb/redesigning-pinterest-block-by-block-6040a00d80a3)"
+7. Example adapted from [GDS design principles](https://www.gov.uk/guidance/government-design-principles#first).
+8. This point was inspired by the excellent article "[A Matter of Principle](http://smashed.by/matterofprinciple)" by Julie Zhou.
+9. http://smashed.by/lightning
+10. "[Creating useful design principles](http://smashed.by/usefulprinciples)" by Dustin Senos
+11. http://smashed.by/researchingsystems
+12. For further reading on the limitations of human working memory see "[The Magical Mystery Four: How is Working Memory Capacity Limited, and Why?](http://smashed.by/workingmemory)" by Stanley Wood 
+13. "[Design Doesn't Scale](https://medium.com/@hellostanley/design-doesnt-scale-4d81e12cbc3e)"
+14. http://smashed.by/truelies
+
 
 
 
