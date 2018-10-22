@@ -135,4 +135,28 @@ TED 的网站的主要目的可以用一句话来概括：“尽可能广泛的�
 
 对于 Atlassian 团队，“乐观”的原则体现在“乐观的界面中”。在 JIRA，例如，有用户想要把卡片从“正在进行中” 移动到 “完成”，卡片可以立即移动，即使在背后需要有很多的检查和验证工作，也许可能会有很多差错。他们的目标旨在呈现“眨眨眼就行了”的原则，通过友好的文案，反馈信息，登陆信息和网站上面其他的信息。
 
+设计模式是由产品是如何运作的核心理念决定的。想想如何通过 Slack 的公共频道体现“透明与合作”的精神；“捕捉生命中独特的瞬间”的想法如何转化为 Instagram 上面的照片流和互动；Trello 上面的卡片如何鼓励某种类型的工作流程。
+
+模式的选择和执行，及其他们独特的组合受到产品的目的、精神、和设计原则的影响。你可以将设计原则视为创建模式的语法规则，并以具有内在意义的方式组合它们。同时，随着品牌和功能模式的发展变得更加精致，他们也塑造着设计原则。原则和模式不断完善和相互影响。
+
+在接下来两个章节中，我们将会讨论设计模式更多的细节，并以实际的产品为例子。我们将可以看到设计模式如何出现，以及他们如何受到产品目的和产品精神、用户行为、品牌、商业需要、和一些其他因素的影响。
+
+--------------------
+
+1. http://smashed.by/pinterestredesign
+2. http://smashed.by/govukprinciples”
+3. "[So…What Do I Make?](http://smashed.by/whatdoimake)" by Dan Mall
+4. "[When It Comes To Whiskey, America Knows Jack](https://www.forbes.com/sites/avidan/2012/07/05/when-it-come-to-bourbon-america-knows-jack/#65ac6ae37b8b)" by Avi Dan
+5. “Google has well known broad-brush design principles such as “Focus on the user and all else will follow,” and a more specific set of principles for its material design language, such as “Motion provides meaning.”
+6. Example adapted from Pinterest design principles in "Redesigning Pinterest, block by block"
+7. Example adapted from GDS design principles.
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+
+
 
