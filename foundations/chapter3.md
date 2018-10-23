@@ -55,6 +55,26 @@
 
 ### 创建模式地图
 
-要梳理客户的需求，目标和东西你可能要完成 [客户体验地图](../assets/ch03-04_5-Adaptive_Paths_Guide_to_Experience_Mapping.pdf) [^2], “要完成工作” [^3]，或是一些类似的客户旅程训练。
+要梳理客户的需求，目标和东西你可能要完成 [客户体验地图](../assets/ch03-04_5-Adaptive_Paths_Guide_to_Experience_Mapping.pdf) [^2], “要完成工作” [^3]，或是一些类似的客户旅程训练。这些结果通常会提供给早期的设计探索和原型。在这一点上，我们通常会非常清楚地了解我们希望为用户鼓励和启用的行为：学习课程，加入课程，参与讨论。但是当我们聚焦在界面上的时候，我们往往会遗漏了一些细节。我们花时间来制作令人印象深刻的页面标题，而忘了页面标题是用来做什么，或者它是怎么影响到不同部分的用户旅程中。换句话说，我们丢失了用户行为和鼓励或启用用户行为模式之间的联系。
+
+要了解你的模式如何适应大局，请尝试将一些核心模块映射到用户旅程的各个部分。想想每个部分的用途，以及它旨在鼓励的行为。你不需要在这个阶段担心每个图标或者按钮的样式。关注在大局上面：了解系统的各个部分，和他们如何一起运作。对于 FutureLearn，主要聚焦在三个部分：发现内容，学习课程，达到目标。
+
+![User Journey](../assets/ch03-05-user-journey.png)
+
+*一些 FutureLearn 的功能模式映射到三个用户旅程的关键阶段*
+
+在我脑海中保留这个地图可以帮助我思考了由共同目的而不是单独页面加入的模式系列。例如，我不是设计课程列表页面，而是将整个“发现”部分作为一个整体。在用户旅程的这个阶段，我们需要鼓励用户的哪一些行为？哪一些模式可以支持这些行为？还有在网站上哪一些地方存在，它们是如何工作的？如果是新的模式，如何让它服务于整个大的体系？对所有这些问题的思考是系统设计的一部分。
+
+### 界面清单规整
+
+[界面元素规整](http://bradfrost.com/blog/post/interface-inventory/)[^4]，由 Brad Frost 描述，已经变成一种普遍的方式来让界面模组化。方法很简单。在纸上打印出界面，或者把它们收集到 Keynote 或者 Powerpoint 里面。然后你可以通过在 keynote 中将它们切开或者粘贴分类。
+
+![Interface Inventory](../assets/ch03-06-interface-inventory.png)
+
+*界面清单显示了一些互动元素*
+
+
 
 [^1]: If we had to make a distinction between the two, I see functional patterns in a more generic way, as a kind of a Platonic ideal, and modules as the embodiment of functional patterns, which can be different in different interfaces.
+
+
