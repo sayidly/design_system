@@ -162,8 +162,16 @@
 - 我们没有准确设计模式来达到它的最佳目的。尝试用不同的模式设计。
 - 我们试图将内容转化为一种不太适合的模式。考虑修改内容，或尝试其他模式。
 
+当我们没有从目的和结构出发的时候，我们最终将会得到与其内容联系内容太过紧密的模块。例如，我们有一个案例，是关于 FutureLearn 的内容和下方的标签页联系太过
 
+![Fragile Module](/Users/sayidhe/design_system/assets/ch03-13-fragile-module.png)
+*脆弱模块的例子，内容太过于具体了*
 
+这些标签应该保持可见。为了解决这个问题，我们几乎引进了一个自定义的小尺寸标题，只是为了稍微推动标签的可见性。但是如果我们这样做，我们将会得到一个不健全的模块。如果标题变得更长或者我们增加了新的一行，我们就会遇到同样的情况。如果我们从模块的目的和结构开始，标签可能已经放在顶部了，因为它们是设计中的一个重要的元素。
+
+已经有一些现有的工具和技术你可以试着在你的界面上面定义功能模块。最重要的是理解模式如何和他们的最初的设计行为联系在一起：它们的目的。
+
+目的决定着以下的一切：模式的结构，它的内容。了解模式的目的（了解它被设计为鼓励或者禁止的行为）。
 
 
 [^1]: If we had to make a distinction between the two, I see functional patterns in a more generic way, as a kind of a Platonic ideal, and modules as the embodiment of functional patterns, which can be different in different interfaces.
